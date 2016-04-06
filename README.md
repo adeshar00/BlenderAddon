@@ -1,7 +1,7 @@
 
 #About
 
-This is an add-on for Blender (an open source 3D modeling program) which exports models in a file format which I created to load models into my [game engine](https://github.com/adeshar00/gengine).  It's pretty limited at the moment; so far it just stores vertex and triangle data (no animation or texture or normal data yet), but it's relatively easy to parse, and it's compact compared to plaintext formats like .obj.
+This is an add-on for Blender (an open source 3D modeling program) which exports models in a file format which I created to load models into my [game engine](https://github.com/adeshar00/GameEngine).  It's pretty limited at the moment; so far it just stores vertex and triangle data (no animation or texture or normal data yet), but it's relatively easy to parse, and it's compact compared to plaintext formats like .obj.
 
 
 #How to use it
@@ -16,7 +16,7 @@ To set up the add-on in Blender:
 
 Now, if you go to "File > Export", there should be an option to export as a Compact Simple Model File.
 
-(Note: the game engine parser currently ignores files with multiple objects, as well as object translation rotation and scale data)
+(Note: the game engine parser currently ignores files with multiple objects, as well as translation rotation and scale data)
 
 
 #Format
