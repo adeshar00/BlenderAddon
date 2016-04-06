@@ -27,7 +27,7 @@ Now, if you go to "File > Export", there should be an option to export as a Comp
 
 #Format
 
-The data is stored as a series of fixed-point numbers and unsigned integers, each number being represented with two bytes.  Fixed-point numbers can represent anything within the range of -128 to 128 with a precision of 1/256; unsigned integers can represent any integer within the range of 0 to ~65k.  Both types are little-endian
+The data is stored as a series of fixed-point numbers and unsigned integers, each number being represented with two bytes.  Fixed-point numbers can represent anything within the range of -128 to 128 with a precision of 1/256; unsigned integers can represent any integer within the range of 0 to ~65k.  Both types are little-endian.
 
 First 2 bytes are a uint for the object count  
 Per object:  
