@@ -1,10 +1,16 @@
 
 #About
 
-This is an add-on for Blender (an open source 3D modeling program) which exports models in a file format which I created to load models into my [game engine](https://github.com/adeshar00/GameEngine).  It's pretty limited at the moment; so far it just stores vertex and triangle data (no animation or texture or normal data yet), but it's relatively easy to parse, and it's compact compared to plaintext formats like .obj.
+This is an add-on for [Blender](https://www.blender.org/) (an open source 3D modeling program) which exports models in a file format which I created to load models into my [game engine](https://github.com/adeshar00/GameEngine).  It's pretty limited at the moment; so far it just stores vertex and triangle data (no animation or texture or normal data yet), but it's relatively easy to parse, and it's compact compared to plaintext formats like .obj.
 
 
 #How to use it
+
+To download Blender on a Debian system, run the following command:
+
+```
+sudo apt-get install blender
+```
 
 To set up the add-on in Blender:
 * Change one of the windows to "user preferences" mode
