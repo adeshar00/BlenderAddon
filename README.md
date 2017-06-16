@@ -1,10 +1,10 @@
 
-#About
+# About
 
 This is an add-on for [Blender](https://www.blender.org/) (an open source 3D modelling program) which exports models in a file format which I created to load models into my [game engine](https://github.com/adeshar00/GameEngine).  It's pretty limited at the moment; so far it just stores vertex and triangle data (no animation or texture or normal data yet), but it's relatively easy to parse, and it's compact compared to plaintext formats like .obj.
 
 
-#How to use it
+# How to use it
 
 To download Blender on a Debian system, run the following command:
 
@@ -25,7 +25,7 @@ Now, if you go to "File > Export", there should be an option to export as a Comp
 (Note: the game engine parser currently ignores files with multiple objects, as well as translation rotation and scale data)
 
 
-#Format
+# Format
 
 The data is stored as a series of fixed-point numbers and unsigned integers, each number being represented with two bytes.  Fixed-point numbers can represent anything within the range of -128 to 128 with a precision of 1/256; unsigned integers can represent any integer within the range of 0 to ~65k.  Both types are little-endian.
 
